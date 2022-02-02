@@ -7,6 +7,9 @@
 }
 
 /* General Style */
+.container > .row{
+  margin-bottom: 3rem;
+}
 
 /* Sections */
 /* Nav */
@@ -52,7 +55,7 @@
   height: var(--box-size);
   position: absolute;
   z-index: -10;
-  animation: turnZ 7s linear alternate-reverse;
+  animation: turnZ 7s linear alternate-reverse infinite;
 }
 .photo-frame::before {
   --box-size: 3em;
@@ -90,4 +93,12 @@
 }
 .header-main{
   min-height: 111.5vh;
+}
+
+/* Service */
+.icon-service{
+  --box-size: 70px;
+  width: var(--box-size);
+  height:var(--box-size);
+  padding: 10px;
 }
