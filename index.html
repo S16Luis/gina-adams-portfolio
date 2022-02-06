@@ -1,6 +1,6 @@
 <!-- Tutorial -->
 <!-- Página web con BOOTSTRAP!!!
-https://www.youtube.com/playlist?list=PLUW3XAK9O3HHksi-CwZ4Z4ZgcdGoAUI28-->
+https://www.youtube.com/playlist?list=PLUW3XAK9O3HHksi-CwZ4Z4ZgcdGoAUI28 -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -27,13 +27,13 @@ https://www.youtube.com/playlist?list=PLUW3XAK9O3HHksi-CwZ4Z4ZgcdGoAUI28-->
           <img src="./img/logo-g.png" alt="Brand Gina Adams">
         </a>
         <!-- Btn -->
-        <button class="navbar-toggler" data-vs-toggle="collapse" data-vs-target="#mainNav" aria-controls="mainNav"
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
           aria-expanded="false" aria-label="Navigation bar">
-          <span class="navbar-toggle-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Items -->
         <div class="collapse navbar-collapse" id="mainNav">
-          <div class="nav ms-auto">
+          <div class="nav ms-auto flex-column flex-md-row">
             <a href="index.html" class="nav-link active  text-dark">Home</a>
             <a href="#secService" class="nav-link text-dark">Services</a>
             <a href="#secPortfolio" class="nav-link text-dark">Portfolio</a>
@@ -44,10 +44,9 @@ https://www.youtube.com/playlist?list=PLUW3XAK9O3HHksi-CwZ4Z4ZgcdGoAUI28-->
     </nav>
 
     <div class="container">
-      
       <!-- Header -->
-      <header class="row align-items-center header-main">
-        <div class="col-md-7">
+      <header class="row align-items-center header-main justify-content-center">
+        <div class="col-md-7 text-center text-md-start">
           <!-- Greeting -->
           <h1 class="display-2">
             <span class="d-block">Hello, </span>
@@ -79,7 +78,7 @@ https://www.youtube.com/playlist?list=PLUW3XAK9O3HHksi-CwZ4Z4ZgcdGoAUI28-->
         </h2>
         <!-- Cards -->
         <!-- Card 1 -->
-        <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light">
+        <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light mb-3 mb-lg-0">
           <!-- Icon -->
           <img src="./img/icons/pen.svg" alt="Icon Pen" class="bg-danger bg-gradient d-inline-bloc rounded-circle mb-3 icon-service">
           <!-- Title -->
@@ -94,7 +93,7 @@ https://www.youtube.com/playlist?list=PLUW3XAK9O3HHksi-CwZ4Z4ZgcdGoAUI28-->
           <a href="#" class="btn btn-outline-danger">Go</a>
         </article>
         <!-- Card 2 -->
-        <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light">
+        <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light mb-3 mb-lg-0">
           <!-- Icon -->
           <img src="./img/icons/code.svg" alt="Icon Code" class="bg-warning bg-gradient d-inline-bloc rounded-circle mb-3 icon-service">
           <!-- Title -->
@@ -109,7 +108,7 @@ https://www.youtube.com/playlist?list=PLUW3XAK9O3HHksi-CwZ4Z4ZgcdGoAUI28-->
           <a href="#" class="btn btn-outline-danger">Go</a>
         </article>
         <!-- Card 3 -->
-        <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light">
+        <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light mb-3 mb-lg-0">
           <!-- Icon -->
           <img src="./img/icons/brand.svg" alt="Icon Brand" class="bg-info bg-gradient d-inline-bloc rounded-circle mb-3 icon-service">
           <!-- Title -->
@@ -142,7 +141,7 @@ https://www.youtube.com/playlist?list=PLUW3XAK9O3HHksi-CwZ4Z4ZgcdGoAUI28-->
       <!-- Portfolio -->
       <main class="row justify-content-center pt-5 sec-portfolio-js">
         <!-- Column #1 -->
-        <div class="col-10 col-md-4">
+        <div class="col-10 col-md-4 order-2 order-md-1">
           <div class="row">
             <!-- IMG 1 -->
             <a href="" class="col-12 mb-3 portfolio-item" data-bs-toggle="modal" data-bs-target="#modal-portfolio">
@@ -159,7 +158,7 @@ https://www.youtube.com/playlist?list=PLUW3XAK9O3HHksi-CwZ4Z4ZgcdGoAUI28-->
           </div>
         </div>
         <!-- Column #2 -->
-        <div class="col-10 col-md-8">
+        <div class="col-10 col-md-8 order-1 order-md-2">
           <div class="row">
             <h2 class="col-12 py-3 text-end display-4">
               Portfolio
@@ -185,8 +184,71 @@ https://www.youtube.com/playlist?list=PLUW3XAK9O3HHksi-CwZ4Z4ZgcdGoAUI28-->
           </div>
         </div>
       </main>
-
     </div>
+
+    <!-- Clients -->
+    <div class="bg-purple d-none d-md-block">
+      <!-- Brands -->
+      <div class="container">
+        <div class="row align-items-center justify-content-around py-5 sec-clients">
+          <!-- Element #1 -->
+          <a href="#" class="col-sm-5 col-md-3">
+            <img src="./img/customers/dashlane.svg" alt="Dashlane" class="w-75">
+          </a>
+          <!-- Element #2 -->
+          <a href="#" class="col-sm-5 col-md-3">
+            <img src="./img/customers/aerospike.svg" alt="Aerospike" class="w-75">
+          </a>
+          <!-- Element #3 -->
+          <a href="#" class="col-sm-5 col-md-3">
+            <img src="./img/customers/typo3.svg" alt="Typo3" class="w-75">
+          </a>
+          <!-- Element #4 -->
+          <a href="#" class="col-sm-5 col-md-3">
+            <img src="./img/customers/kong.svg" alt="Kong" class="w-75">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="container py-md-4">
+      <section class="row justify-content-center">
+        <div class="col-9 col-lg-7 bg-white text-center py-4 px-3 shadow position-relative photo-frame">
+          <p class="h6 text-muted fw-light">
+            Have any in mind? Say hello at 
+          </p>
+          <a href="mailto:gina10@coffegrains.com" class="h3 text-decoration-none text-reset text-break">
+            gina10@coffegrains.com
+          </a>
+        </div>
+      </section>
+      <!-- Navbar -->
+      <div class="row justify-content-center text-center">
+        <!-- Brand -->
+        <a href="#" class="navbar-brand">
+          <img src="./img/logo-g.png" alt="Brand Gina Adams">
+        </a>
+        <!-- Items -->
+        <nav class="nav col-11 justify-content-center mb-4">
+          <a href="index.html" class="nav-link active  text-dark">Home</a>
+          <a href="#secService" class="nav-link text-dark">Services</a>
+          <a href="#secPortfolio" class="nav-link text-dark">Portfolio</a>
+          <a href="#secContact" class="nav-link text-dark">Contact</a>
+        </nav>
+        <!-- Social networks -->
+        <div class="icons-social-networks">
+          <a href="#" target="_blank" class="bg-facebook"><img src="./img/icons/facebook.svg" alt="Facebook"></a>
+          <a href="#" target="_blank" class="bg-twitter mx-3"><img src="./img/icons/twitter.svg" alt="Twitter"></a>
+          <a href="#" target="_blank" class="bg-dribbble"><img src="./img/icons/dribbble.svg" alt="Dribbble"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-purple text-center p-4">
+      &#169; Gina 2021. All rights reserved
+    </footer>
 
     <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
